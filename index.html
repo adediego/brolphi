@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<script src="oracle.js"></script>
+
+<body onload="init();">
+    <h1>The oracle of Brolphi</h1>
+    <p> See your future in brownian motion.</p>
+    <div class="shape-div">
+      <svg id="svg" width="300px" height="300px" viewBox="0 0 300 300">
+        <polygon fill="#000000" fill-rule="evenodd" 
+                stroke="#000000" stroke-width="0" 
+                stroke-linejoin="round" 
+                points="" />
+        <animateTransform
+          attributeName="transform"
+          begin="0s"
+          dur="20s"
+          type="rotate"
+          from="0"
+          to="360"
+          repeatCount="indefinite" />
+      </svg>
+    </div>
+</body>
+</html>
